@@ -25,49 +25,33 @@ export const className = `
 export const render = () => {
   return (
     <div className="output">
-      <h2>My focus(10-14.02)</h2>
+      <h2>My focus(24-28.02)</h2>
       <ul className="list">
         <li>
           <h3>Cookbook:</h3>
           <ul className="list">
-            <li>
-              Next release - v9.0.0
+            <li className="done">
+              Create MR in portal to address v9.0.0
             </li>
             <li>
-              Dark mode clarification
-            </li>
-          </ul>
-        </li>
-        <li>
-          <h3>B2B Website:</h3>
-          <ul className="list">
-          <li>
-              Content models for Blog
+              styled-system object breakpoints
             </li>
             <li>
-              Get to know designers and editors for blog
+              Pipeline fix for stg docs release
             </li>
             <li>
-              Kick-off development
+              read: shouldForwardProp support(https://github.com/styled-components/styled-components/pull/3006)
             </li>
           </ul>
         </li>
         <li>
-          <h3>Indeed Zendesk Automations</h3>
+          <h3>Quisine:</h3>
           <ul className="list">
             <li>
-              Estimations on tickets
-            </li>
-          </ul>
-        </li>
-        <li>
-          <h3>Hiring</h3>
-          <ul className="list">
-            <li>
-              Get to know hiring process for engineers(in web teams)
+              Header fix
             </li>
             <li>
-              Prepare for Interview - Get to know the candidate
+              Article template
             </li>
           </ul>
         </li>

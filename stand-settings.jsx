@@ -25,7 +25,8 @@ export const render = () => {
   return (
     <div className="output">
       <h1 className="title">Stand settings<span> (top-to-bottom):</span></h1>
-      Sitting on floor/couch: 75-90-45&#176;
+      Sitting on floor/couch: 75-90-45&#176; <br />
+      Sitting at table: 30-(-30)-30&#176; <br />
     </div>
   );
 }
